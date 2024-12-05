@@ -1,8 +1,8 @@
 from mail_class import sendEmail
 
 mail_body = '''
-<p> Olá, </p>
-<p> Segue meu email automático </p>
+<p> Hi, </p>
+<p> This is an auto sender mail </p>
 '''
 Subject = 'Auto mail'
 From = 'enter with the sender mail'
