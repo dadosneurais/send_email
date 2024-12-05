@@ -5,9 +5,9 @@ mail_body = '''
 <p> Segue meu email automático </p>
 '''
 Subject = 'Auto mail'
-From = 'petshirablade@gmail.com'
-To = 'petshirablade@gmail.com'
-password = 'eiepznnzrsqgzizh'
+From = 'enter with the sender mail'
+To = 'enter with the receiver mail' # you can add more emails, just separete them with the comma.
+password = 'enter with the app passwords security from the gmail'
 
 objSendMail = sendEmail(Subject, From, To, password, mail_body) # instansing the class 
 
